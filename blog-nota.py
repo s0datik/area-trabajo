@@ -3,6 +3,8 @@ from colorama import init
 from colorama import Fore, Back, Style
 from datetime import datetime
 
+init(autoreset=True)
+
 # Función para limpiar la pantalla
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
